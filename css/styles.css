@@ -4,6 +4,7 @@
     position: fixed;
     background-color: white;
     width: 100%;
+    height: auto;
     font-family: 'roboto',sans-serif;
     z-index: 100;
 }
@@ -79,8 +80,10 @@
 
 /*FIRST 3 BOXES START*/
 .box-all {
-    margin-right: 420px;
-    margin-left: 420px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -154,10 +157,10 @@
     background-color: rgba(61,199,223,.1);
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 200px;
-    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .middle-part-one {
     margin-top: 20px;
@@ -173,7 +176,7 @@
 .middle-part-two {
     gap: 10px;
     padding: 10px;
-    height: 600px;
+    height: 400px;
     color: #00ccb1;
     display: grid;
     grid-template-rows: 50% 50%;
@@ -182,24 +185,24 @@
 }
 .middle-part-two-one {
     background-color: white;
-    width: 400px;
+    width: auto;
     height: 200px;
 }
 .middle-part-two-two {
     background-color: white;
-    width: 400px;
+    width: auto;
     height: 200px;
     margin-right: 50px;
 }
 .middle-part-two-three {
     background-color: white;
-    width: 400px;
+    width: auto;
     height: 200px;
     padding-bottom: 50px;
 }
 .middle-part-two-four {
     background-color: white;
-    width: 400px;
+    width: auto;
     height: 200px;
     margin-right: 50px;
 }
@@ -210,15 +213,14 @@
 
 /*LAST PART START*/
 .move {
-    margin-left: 300px;
-    margin-right: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 80px;
-    height: 250px;
-    width: 1250px;
     font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .move-one {
     color: #00b39b;
@@ -229,14 +231,14 @@
     font-weight: lighter;
 }
 .last {
-    margin-left: 400px;
-    margin-right: 400px;
-    height: 1200px;
-    width: 1000px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 220px;
+    margin-left: 220px;
 }
 .last-one {
     display: flex;
@@ -263,12 +265,12 @@
 }
 .footer {
     display: flex;
-    margin-right: 200px;
-    margin-left: 200px;
     font-weight: lighter;
-    width: 1050px;
     text-align: center;
-    padding-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 120px;
+    margin-left: 350px;
 }
 .last-footer {
     display: flex;
