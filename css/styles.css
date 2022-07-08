@@ -217,10 +217,10 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 80px;
     padding-bottom: 80px;
-    margin-right: 120px;
-    margin-left: 120px;
+    padding-top: 80px;
+    margin-right: 220px;
+    margin-left: 220px;
 }
 .move-one {
     color: #00b39b;
@@ -269,8 +269,8 @@
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-right: 120px;
-    margin-left: 350px;
+    margin-right: 220px;
+    margin-left: 220px;
 }
 .last-footer {
     display: flex;
