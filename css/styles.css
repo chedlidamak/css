@@ -7,13 +7,14 @@
     height: auto;
     font-family: 'roboto',sans-serif;
     z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar-all {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 320px;
+    margin-right: 300px;
     margin-left: 300px;
     padding-right: 20px;
     padding-left: 20px;
@@ -38,7 +39,7 @@
 /*-- FIRST LOGO + TITLE START*/
 .part-one-all {
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,10 +81,9 @@
 
 /*FIRST 3 BOXES START*/
 .box-all {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-right: 120px;
-    margin-left: 120px;
+    padding-bottom: 20px;
+    margin-right: 220px;
+    margin-left: 220px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -97,22 +97,32 @@
 @keyframes mymove {
     from {bottom: 0px;}
     to {bottom: 60px;}
-  }
+}
 .box-one {
     background-color: #00ccb1;
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
-    width: 300px;
+    border-radius: 15px;
+    height: 280px;
+    width: 240px;
     justify-content: space-around;
     padding: 10px 10px 10px 10px;
+}
+.domain-switcher {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-decoration: underline;
 }
 .box-two {
     background-color: #3d83df;
     display: flex;
     flex-direction: column; 
-    border-radius: 25px;
-    width: 300px;
+    border-radius: 15px;
+    height: 280px;
+    width: 240px;
     justify-content: space-around;
     padding: 10px 10px 10px 10px;
 }
@@ -120,8 +130,9 @@
     background-color: #1b2734;
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
-    width: 300px;
+    border-radius: 15px;
+    height: 280px;
+    width: 240px;
     justify-content: space-around;
     padding: 10px 10px 10px 10px;
 }
@@ -147,31 +158,53 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
-    width: 690px;
+    justify-content: space-between;
+    width: 680px;
     color: #ababab;
-    filter: grayscale(10);
+    fill: hsla(0,0%,67%,.7);
+}
+.hover:hover {
+    fill: #00b39b;
 }
 /*MIDDLE PART START*/
-.middle-part {
-    height: 500px;
+.divv {
     background-color: rgba(61,199,223,.1);
+}
+.middle-part {
+    height: 400px;
     display: flex;
     flex-direction: row;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 120px;
     margin-left: 120px;
+    gap: 100px;
 }
 .middle-part-one {
     margin-top: 20px;
     padding: 10px 10px 10px 10px;
+    font-family: 'roboto', sans-serif;
 }
 .middle-part-one-parag {
     color: #00b39b;
     font-weight: lighter;
+    font-size: 25px;
+    height: 60px;
+    width: 280px;
+    margin-left: 200px;
 }
 .middle-part-one-paragr {
     color: #747474;
+    font-weight: lighter;
+    font-size: 10px;
+    height: 60px;
+    width: 300px;
+    margin-left: 200px;
+}
+.pic {
+    height: 300px; 
+    width: 300px;
+    margin-left: 200px;
 }
 .middle-part-two {
     gap: 10px;
@@ -181,30 +214,37 @@
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
-    justify-content: space-between;
+    align-content: space-between;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: center;
 }
 .middle-part-two-one {
     background-color: white;
-    width: auto;
-    height: 200px;
+    height: 180px;
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
 }
 .middle-part-two-two {
     background-color: white;
-    width: auto;
-    height: 200px;
-    margin-right: 50px;
+    height: 180px;
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
 }
 .middle-part-two-three {
     background-color: white;
-    width: auto;
-    height: 200px;
-    padding-bottom: 50px;
+    height: 180px;
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
 }
 .middle-part-two-four {
     background-color: white;
-    width: auto;
-    height: 200px;
-    margin-right: 50px;
+    height: 180px;
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
 }
 .p {
     color: #1b2734;
